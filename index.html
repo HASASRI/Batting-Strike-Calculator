@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batting Strike Rate Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-cricket-bat-ball"></i> Batting Strike Rate Calculator</h1>
+
+        <form id="strike-rate-form">
+            <b><input type="text" id="name-input" placeholder="Enter batsman's name" required></b>
+            <input type="number" id="runs-input" placeholder="Enter runs scored" required>
+            <input type="number" id="balls-input" placeholder="Enter balls faced" required>
+            <button type="submit">Calculate Strike Rate</button>
+        </form>
+
+        <div id="strike-rate-result" class="balance-box">Strike Rate: -- </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

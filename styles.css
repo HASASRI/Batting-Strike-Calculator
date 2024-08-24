@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #0a0726;
+    background-color: #090979;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #170d74;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#strike-rate-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+#name-input, #runs-input, #balls-input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#strike-rate-result {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0d1d74;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    cursor: default;
+}
+
+#strike-rate-result::before {
+    content: "Strike Rate: ";
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #ffffffa3;
+}
